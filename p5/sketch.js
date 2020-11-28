@@ -14,7 +14,7 @@ let modelURL = 'https://teachablemachine.withgoogle.com/models/Hm7_V5cHg/';
 // STEP 1: Load the model!
 function preload() {
   classifier = ml5.soundClassifier(modelURL + 'model.json');
-  soundFile = loadSound ('natur+gå.wav')
+  soundFile = loadSound ('nature.wav')
 
 }
 
